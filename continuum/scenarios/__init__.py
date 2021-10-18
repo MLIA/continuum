@@ -9,6 +9,7 @@ from continuum.scenarios.rotations import Rotations
 from continuum.scenarios.permutations import Permutations
 from continuum.scenarios.segmentation import SegmentationClassIncremental
 from continuum.scenarios.hashed import HashedScenario
+from continuum.scenarios.huggingface_fellowships import HuggingFaceFellowship, DecaNLP, AutumnClassification
 
 from continuum.scenarios.scenario_utils import create_subscenario
 
