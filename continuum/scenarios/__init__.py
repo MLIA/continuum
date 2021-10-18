@@ -10,6 +10,7 @@ from continuum.scenarios.permutations import Permutations
 from continuum.scenarios.segmentation import SegmentationClassIncremental
 from continuum.scenarios.hashed import HashedScenario
 from continuum.scenarios.huggingface_fellowships import HuggingFaceFellowship, DecaNLP, AutumnClassification
+from continuum.scenarios.huggingface_incremental import HuggingFaceIncremental
 
 from continuum.scenarios.scenario_utils import create_subscenario
 
@@ -21,5 +22,9 @@ __all__ = [
     "Permutations",
     "TransformationIncremental",
     "SegmentationClassIncremental",
-    "HashedScenario"
+    "HashedScenario",
+    "HuggingFaceIncremental",
+    "HuggingFaceFellowship",
+    "DecaNLP",
+    "AutumnClassification"
 ]
